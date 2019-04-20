@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initView();
 
-
     }
 
 //注册组件
