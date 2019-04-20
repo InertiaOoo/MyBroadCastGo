@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyBroadCastGo</string>
+    <string name="left_arrow">\u2190</string>
+    <string name="up_arrow">\u2191</string>
+    <string name="down_arrow">\u2193</string>
+    <string name="right_arrow">\u2192</string>
+</resources>

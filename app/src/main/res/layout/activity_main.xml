@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_go1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first"/>
+    <Button
+        android:id="@+id/bt_go2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_go1"
+        android:text="second"/>
+    <Button
+        android:id="@+id/bt_go3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_go2"
+        android:text="third"/>
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" \u2193\u2193\u2193\u2193\u2193\u2193"
+        android:layout_below="@+id/bt_go3"
+        />
+
+    <TextView
+        android:id="@+id/tv_show2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_show"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="let me show u"/>
+
+<TextView
+    android:id="@+id/tv_show3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/bt_done"
+    android:text="使用说明：上面三个按键各自发送一条指定广播，底部的按键获取并展示相应广播内容在上方的textView上"/>
+    <Button
+        android:id="@+id/bt_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="done"/>
+
+</RelativeLayout>
